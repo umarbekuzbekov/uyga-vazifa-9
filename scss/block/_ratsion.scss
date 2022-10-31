@@ -1,0 +1,154 @@
+.ratsion__container{
+    padding-top: 180px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.ratsion__contetnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ratsion__heading{
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0.02em;
+color: #000000;
+
+}
+.ratsion__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #000000;
+max-width: 777px;
+
+}
+.ratsion__list{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ratsion__item{
+    max-width: 282px;
+}
+.ratsion_img{
+    max-width: 282px;
+    margin-bottom: 45px; 
+}
+.ratsion__inner-title{
+font-weight: 700;
+font-size: 16px;
+line-height: 130%;
+color: #000000;
+margin-bottom: 4px;
+}
+.heading-bottom_text{
+    font-weight: 400;
+font-size: 13px;
+line-height: 130%;
+color: #9F9E9D;
+margin-bottom: 16px;
+}
+.ratsion__inner-text{
+    max-width: 282px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #434242;
+margin-bottom: 11px;
+}
+.ratsion__weight{
+    font-weight: 400;
+font-size: 13px;
+line-height: 130%;
+color: #9F9E9D;
+}
+.ratsion__link{
+    margin-top: 24px;
+padding: 13px 42px;
+border: 1px solid #961914;
+border-radius: 8px;
+text-align: center;
+color: #961914;
+border: 1px solid #961914;
+border-radius: 8px
+}
+.container__ras{
+    margin-top: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1198px;
+    background: #EAD1D0;
+    padding: 50px 121px 52px  54px;
+}
+.raschitat__text{
+max-width: 705px;
+font-weight: 500;
+font-size: 28px;
+line-height: 140%;
+letter-spacing: 0.02em;
+color: #000000;
+}
+.raschitat__button{
+    background: #961914;
+border-radius: 8px;
+padding:13px 42px ;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+}
+@media only screen and (max-width:1172px) {
+    .ratsion__heading{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    
+      margin: 0 auto;
+        }
+        .ratsion__text{
+           display: none;
+        
+        }
+        .ratsion__list{
+            gap: 20px;
+         display: flex;
+        flex-direction: column;
+        }
+        .ras{
+            gap: 24px;
+            padding-top: 108px;
+        }
+        .container__ras{
+           
+           padding: 32px 24px 32px 24px;
+        //    max-width: 327px;
+           margin: 0 auto;
+           flex-direction: column;
+        }
+        .taschitat__text{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #000000;
+            max-width: 282px;
+           
+            }
+            .raschitat__button{
+               margin-top: 24px;
+               font-size: 16px;
+            }
+            
+            
+}

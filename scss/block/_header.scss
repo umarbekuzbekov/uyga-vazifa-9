@@ -1,3 +1,110 @@
-.nn{
-    color: red;
+.header__container{
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    padding: 16px 174px 225px 120px;
+    background-image: url(../../img/header-bg.svg);
+}
+.header_poz{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    max-width: 65px;
+    padding-top: 9px;
+}
+.header__link{
+    font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.header__item{
+    margin-left: 53px;
+}
+.underlined{
+    text-decoration: underline;
+}
+.header__content{
+    margin-top: 130px;
+    position: relative;
+}
+.header__title{
+    font-weight: 700;
+font-size: 54px;
+line-height: 130%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+max-width: 495px;
+}
+
+.button{
+    width: 27px;
+   height: 16px;
+   border-color:transparent ;
+   background-repeat: no-repeat;
+   background-image: url(../../img/button__burger.svg);
+   background-position: center;
+   display: none;
+}
+.header__button{
+    padding: 13px 43px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+background: #961914;
+border-radius: 8px;
+}
+.header__text{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    max-width: 371px;
+    font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+color: #FFFFFF;
+}
+
+@media  only screen and (max-width:1111px) {
+    .header__container{
+        max-width: 1111px;
+        padding: 10px 24px 173px 24px;
+        background-image: url(../../img/header-bg.svg);
+    }
+    .header__list{
+        display: none;
+      
+    }
+    .header__title{
+        max-width: 338px;
+        font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+    }
+    .button{
+        display: block;
+    }
+}
+@media  only screen and (max-width:519px) {
+    .header__container{
+        
+        padding: 10px 24px 173px 24px;
+        background-image: url(../../img/header-bg.svg);
+    }
+}
+@media  only screen and (max-width:406px) {
+    .header__container{
+        
+        padding: 10px 24px 173px 24px;
+        background-image: url(../../img/header__mobile.svg);
+    }
 }

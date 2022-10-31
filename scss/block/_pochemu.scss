@@ -1,0 +1,89 @@
+.pochemu__container{
+    padding-top: 180px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.pochemu__heading{
+
+    font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0.02em;
+color: #000000;
+margin-bottom: 57px;
+}
+.pochemu__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pochemu__inner-heading{
+    font-weight: 600;
+font-size: 18px;
+line-height: 130%;
+color: #000000;
+margin-bottom: 8px;
+}
+.pochemu__inner-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    max-width: 280px;
+}
+
+.pochemu__item:nth-child(1)::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/Leaf.svg);
+    margin-bottom: 16px;
+}
+.pochemu__item:nth-child(2)::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/Heartbeat.svg);
+    margin-bottom: 16px;
+}
+.pochemu__item:nth-child(3)::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/PawPrint.svg);
+    margin-bottom: 16px;
+}
+.pochemu__item:nth-child(4)::before{
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/Smiley.svg);
+    margin-bottom: 16px;
+}
+@media only screen and (max-width:1172px) {
+    .pochemu__heading{
+
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 130%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #000000;
+        
+    } 
+    .pochemu__list{
+       flex-direction: column;
+    } 
+    .pochemu__item{
+margin-bottom: 40px;
+    }
+}
+
